@@ -1,7 +1,12 @@
-img {
-	height:45px;
-}
-
 .uk-navbar {
 	height:60px;
+	padding-top: 10px
 }
+
+.uk-navbar-brand {
+	height:55px;
+}
+
+/*.uk-dropdown-navbar {
+	background: transparent;
+}*/
