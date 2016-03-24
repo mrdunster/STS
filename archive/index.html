@@ -1,4 +1,4 @@
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -13,24 +13,24 @@
         
         <div class="container">
         
-        <h1><a href="index.html">Special Technical Services</a></h1>
+        <h1><a href="index.php">Special Technical Services</a></h1>
         
         <div id="main_menu">
-        
+        <nav>
             <ul>
-                <li class="first_list"><a href="index.html" class="main_menu_first main_current">home</a></li>
+                <li class="first_list"><a href="index.php" class="main_menu_first main_current">home</a></li>
                 <li class="first_list with_dropdown">
-                    <a href="products.html"  class="main_menu_first">products</a>
+                    <a href="products.php"  class="main_menu_first">products</a>
                     <ul>
                         <li class="second_list second_list_border"><a href="#" class="main_menu_second">ground monitoring system</a></li>
                         <li class="second_list second_list_border"><a href="#" class="main_menu_second">grounding cables</a></li>
                         <li class="second_list second_list_border"><a href="#" class="main_menu_second">grounding clamps</a></li>
-                        <li class="second_list second_list_border"><a href="#" class="main_menu_second">options</a></li>
+                        <li class="second_list second_list_border"><a href="#" class="main_menu_second">accessories</a></li>
                         </ul>
                 </li>
                 <li class="first_list"><a href="#" class="main_menu_first">replacement parts</a></li>
                 </li>
-                <li class="first_list"><a href="#" class="main_menu_first">ordering guide</a></li>
+                <li class="first_list"><a href="ordering_guide.php" class="main_menu_first">ordering guide</a></li>
                 <li class="first_list"><a href="#" class="main_menu_first">applications</a></li>
                 <li class="first_list"><a href="#" class="main_menu_first">technical info</a></li>
                 <!--li class="first_list"><a href="contact.html" class="main_menu_first">contact us</a></li-->
@@ -51,7 +51,7 @@
             <div id="slideshow_container">
                 
                 <ul>
-                    <li><img src="images/banner_image.jpg" alt="banner1" /></li>
+                    <li><img class="uk-img-preserve" src="images/banner_image_4.jpg" alt="banner1"></li>
                 </ul>
                          
             </div> <!-- END #slideshow_container -->
@@ -65,32 +65,39 @@
             <div class="container">
                 
             <div class="mid_content_info mid_content_space">
-                    
-                <h2 id="clean">Static Ground Control</h2>
+             
+                <div class="uk-grid-width-1-4">    
+                <h2 id="energy">Static Ground Control</h2>
                 <p>Insert content here</p>
                 <a href="#"><img src="images/arrow_right.png" alt="arrow right" />Read More</a>
+                </div>
+
+            </div>
+                
+            <div class="mid_content_info mid_content_space">
+
+                <div class="uk-grid-width-1-4">    
+                <h2 id="wrench">Replacement Parts</h2>
+                <p>Insert content here</p>
+                <a href="#"><img src="images/arrow_right.png" alt="arrow right" />Read More</a>
+                </div>
                     
             </div>
                 
             <div class="mid_content_info mid_content_space">
 
-                <h2 id="responsive">Replacement Parts</h2>
+                <div class="uk-grid-width-1-4">    
+                <h2 id="truck">Current Applications</h2>
                 <p>Insert content here</p>
                 <a href="#"><img src="images/arrow_right.png" alt="arrow right" />Read More</a>
-                    
-            </div>
-                
-            <div class="mid_content_info mid_content_space">
-                    
-                <h2 id="fully">Current Applications</h2>
-                <p>Insert content here</p>
-                <a href="#"><img src="images/arrow_right.png" alt="arrow right" />Read More</a>
-                    
+                </div>
+
             </div>
                 
             <div class="mid_content_info">
-                    
-                <h2 id="ready">Purchasing Product</h2>
+                
+                <div class="uk-grid-width-1-4">    
+                <h2 id="purchase">Purchasing Product</h2>
                 <p>Insert content here</p>
                 <a href="#"><img src="images/arrow_right.png" alt="arrow right" />Read More</a>
                     
@@ -173,99 +180,7 @@
         
     </div> <!-- END #main_content -->
     
-    <div id="footer">
-        
-        <div class="container">
-            
-            <div id="footer_about" class="footer_info">
-                
-                <h4>about us</h4>
-                <p>Special Technical Services Inc. has been providing static ground monitoring solutions since 1976.  STS was founded by Ron Dunster and his vision, business principles and commitment to excellence has proudly now extended into a third generation.
-                <br>
-                We are a family owned business and our company goal has always been to provide a quality product delivered at a competitive price that ensures the most value to our customers. Serving our customers' needs with a premium experience in response, delivery and quality is our objective every single day. <br /></p>
+    <?php include 'footer.php';?>
 
-                
-            </div> <!-- END #footer_about -->
-            
-            <div id="footer_explore" class="footer_info">
-                
-                <h4>explore</h4>
-                <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="#">about us</a></li>
-                    <li><a href="#">services</a></li>
-                    <li><a href="products.html">products</a></li>
-                    <li><a href="#">blog</a></li>
-                </ul>
-                
-            </div> <!-- END #footer_about -->
-            
-            <div id="footer_browse" class="footer_info">
-                
-                <h4>browse</h4>
-                <ul>
-                    <li><a href="#">careers</a></li>
-                    <li><a href="#">press &amp; media</a></li>
-                    <li><a href="contact.html">contact us</a></li>
-                    <li><a href="#">terms of service</a></li>
-                    <li><a href="#">privacy policy</a></li>
-                </ul>
-                
-            </div> <!-- END #footer_about -->
-            
-            <div id="footer_contact" class="footer_info">
-                
-                <h4>contact us</h4>
-                <p><span class="bold_text">Main Facility</span>
-                <br />
-                120 Stryker Lane
-                <br />
-                Suite 405A
-                <br />
-                Hillborough, NJ 08844
-                <br />
-                <br>
-                <br />
-                <p><span class="bold_text">Accounts Payable</span>
-                <br />
-                11 Carlton Rd
-                <br />
-                Flanders, NJ 07836
-                <br />
-                <br>
-                <br />
-                Phone: <a href="609-259-2626"> 609-259-2626</a>
-                <br />
-                Fax: 609-259-0044
-                <br>
-                Email: <a href="mailto:STSInc88@aol.com">STSInc88@aol.com</a><p>
-                
-            </div> <!-- END #footer_about -->
-            
-            <!--div id="footer_connect" class="footer_info">
-                
-                <h4>connect with us</h4>
-                
-                <ul>
-                    <li><a href="#" id="facebook" title="Facebook">Facebook</a></li>
-                    <li><a href="#" id="dribbble" title="Dribbble">Dribbble</a></li>
-                    <li><a href="#" id="pinterest" title="Pinterest">Pinterest</a></li>
-                    <li><a href="#" id="linkedin" title="LinkedIn">LinkedIn</a></li>
-                    <li><a href="#" id="skype" title="Skype">Skype</a></li>
-                    <li><a href="#" id="sharethis" title="Share This">ShareThis</a></li>
-                </ul>
-                
-            </div> <!-- END #footer_about -->
-            
-            <p id="copyright">&copy; Copyright 2015 - Special Technical Services Inc. All rights reserved. 
-            <br />
-            Client Logos are copyright and trademark of the respective owners / companies.</p>
-            
-            <a href="index.html" id="footer_logo">Special Technical Services</a>
-        
-        </div> <!-- END .container -->
-        
-    </div> <!-- END #footer -->
-    
 </body>
 </html>
