@@ -1,6 +1,6 @@
 .uk-navbar {
 	height:60px;
-	padding-top: 10px
+	padding-top: 5px
 }
 
 .uk-navbar-brand {
@@ -10,3 +10,7 @@
 /*.uk-dropdown-navbar {
 	background: transparent;
 }*/
+
+.uk-nav-navbar {
+	text-transform: capitalize;
+}
