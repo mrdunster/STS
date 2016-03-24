@@ -27,6 +27,13 @@
             <a class="uk-navbar-brand uk-hidden-small" href="#">
                 <img class="uk-margin uk-margin-remove" src="images/logo.png" width="135" height="45" title="STS" alt="STS">
             </a>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="">Home</a></li>
+                <li><a href="">Prducts</a></li>
+                <li><a href="">Replacement Parts</a></li>
+                <li><a href="">Ordering Guide</a></li>
+                <li><a href="">Applications</a></li>
+                <li><a href="">Technical Guide</a></li>
         </div>
     </nav>
 
