@@ -14,3 +14,16 @@
 .uk-nav-navbar {
 	text-transform: capitalize;
 }
+
+.center {
+	margin: auto;
+	width: 60%;
+	border: 3px
+	padding: 10px;
+}
+
+#background-area {
+	background: #0F2D53 url(../img/banner_shadow.png) repeat-x;
+	border-top: 1px solid #0F2D53;
+	padding: 19px 0 28px 0;
+}
