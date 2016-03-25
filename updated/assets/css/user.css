@@ -1,19 +1,11 @@
-.uk-navbar {
-	height:60px;
-	padding-top: 5px
-}
-
 .uk-navbar-brand {
-	height:55px;
+	width: 140px;
+	height: 60px;
 }
 
 /*.uk-dropdown-navbar {
 	background: transparent;
 }*/
-
-.uk-nav-navbar {
-	text-transform: capitalize;
-}
 
 .center {
 	margin: auto;

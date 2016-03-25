@@ -10,44 +10,80 @@
 	<script src="assets/js/user.js"></script>
 </head>
 <body>
-    
-    <nav class="uk-navbar"> <!--MAIN Nav Bar-->
-        <div class="uk-container uk-navbar-center">
-            <img class="uk-navbar-brand" src="assets/img/logo.png" title="STS" alt="STS">
-            <ul class="uk-navbar-nav first_list">
-                <li class="uk-active main_menu_first main_current"><a href="">Home</a></li>
-                <li class="uk-parent main_menu_first" data-uk-dropdown><a href="">Products</a>
-                	<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
-                		<ul class="uk-nav uk-nav-navbar">
-	                		<li>
-	                			<a href="#">Ground Monitoring System</a>
-	                		</li>
-	                		<li>
-	                			<a href="#">Grounding Cables</a>
-	                		</li>
-	                		<li>
-	                			<a href="#">Grounding Clamps</a>
-	                		</li>
-	                		<li>
-	                			<a href="#">Accessories</a>
-	                		</li>
-	                	</ul>	
-                	</div>
-                </li>
-                <li class="main_menu_first"><a href="">Replacement Parts</a></li>
-                <li class="main_menu_first"><a href="">Ordering Guide</a></li>
-                <li class="main_menu_first"><a href="">Applications</a></li>
-                <li class="main_menu_first"><a href="">Technical Guide</a></li>
-            </ul> <!--END Nav Options-->
-        </div>
-    </nav> <!--END MAIN Nav Bar-->
 
+    <!--MAIN Navigation NEW-->
+    <nav class="uk-navbar">
+		<img class="uk-navbar-brand uk-visible-large" src="assets/img/logo.png" title="STS" alt="STS">
+        <ul class="uk-navbar-nav uk-navbar-center uk-visible-large">
+            <li><a href="#">HOME</a></li>
+            <li class="uk-parent" data-uk-dropdown><a href="">PRODUCTS</a>
+            	<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
+            		<ul class="uk-nav uk-nav-navbar">
+                		<li>
+                			<a href="#">Ground Monitoring System</a>
+                		</li>
+                		<li>
+                			<a href="#">Grounding Cables</a>
+                		</li>
+                		<li>
+                			<a href="#">Grounding Clamps</a>
+                		</li>
+                		<li>
+                			<a href="#">Accessories</a>
+                		</li>
+                	</ul>	
+            	</div>
+            </li>
+            <li><a href="#">REPLACEMENT </a></li>
+            <li><a href="#">ORDERING GUIDE</a></li>
+            <li><a href="#">APPLICATIONS</a></li>
+            <li><a href="#">TECHNICAL GUIDE</a></li>
+        </ul>
+        <a href="#offcanvas" class="uk-navbar-toggle uk-hidden-large" data-uk-offcanvas></a>
+		<img class="uk-navbar-brand uk-navbar-center uk-hidden-large" src="assets/img/logo.png" title="STS" alt="STS">
+	   
+	    <!--Off Canvas for Phones-->
+	    <div id="offcanvas" class="uk-offcanvas">
+	        <div class="uk-offcanvas-bar">
+				<ul class="uk-nav uk-nav-offcanvas">
+		            <li><a href="#">HOME</a></li>
+		            <li class="uk-parent" data-uk-dropdown><a href="#">PRODUCTS</a></li>
+			            <div class="uk-dropdown">
+		            		<ul class="uk-nav uk-nav-navbar">
+		                		<li>
+		                			<a href="#">Ground Monitoring System</a>
+		                		</li>
+		                		<li>
+		                			<a href="#">Grounding Cables</a>
+		                		</li>
+		                		<li>
+		                			<a href="#">Grounding Clamps</a>
+		                		</li>
+		                		<li>
+		                			<a href="#">Accessories</a>
+		                		</li>
+		                	</ul>	
+	            	</div>
+			        <li><a href="#">REPLACEMENT </a></li>
+		            <li><a href="#">ORDERING GUIDE</a></li>
+		            <li><a href="#">APPLICATIONS</a></li>
+		            <li><a href="#">TECHNICAL GUIDE</a></li>
+		        </ul>
+	        </div>
+	    </div>
+	    <!--END Off Canvas for Phones-->
+    </nav>
+    <!--END MAIN Navigation NEW-->
+ 	
+ 	<!--Banner Picture-->
 	<div id="background-area">
-		<div class="uk-cover-background center"> <!--Banner Picture-->
+		<div class="uk-cover-background center">
 			<img src="assets/img/banner_image.jpg" alt=banner>
-		</div> <!--END Banner Picture-->
+		</div>
 	</div>
-
+	<!--END Banner Picture-->
     <footer></footer>
+
+    
 </body>
 </html>
