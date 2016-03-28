@@ -2,12 +2,27 @@ body {
     font-family: Arial, sans-serif;
 }
 
-body, .uk-navbar {
+body {
     background: #E9ECF3;
 }
-
-.uk-navbar-brand {
-	margin: 3px;
-	width: 120px;
-	height: 40px;
+.uk-navbar {
+	background: transparent;
+}
+#offNav {
+	text-align: center;
+}
+#offNav a {
+	color:white;
+}
+#offNav li {
+	width: 100%;
+}
+#offNav li:hover a {
+	color:#333333;
+}
+#offNav .uk-dropdown {
+	background-color: black;
+}
+#offNav .uk-dropdown li a {
+	color:white;
 }
