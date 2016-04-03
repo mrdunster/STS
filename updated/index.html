@@ -10,35 +10,13 @@
 </head>
 <body class="uk-height-1-1">
 
-<nav class="uk-navbar uk-navbar-center">
-	 <ul class="uk-navbar-nav uk-hidden-small">
-	 	<a href="" class="uk-navbar-brand">
-	 	<img src="assets/img/logoBrand.png" alt="STS logo"/></a>
-        <li><a href="">HOME</a></li>
-        <li class="uk-parent" data-uk-dropdown><a href="">PRODUCTS</a>
-			<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
-			    <ul class="uk-nav uk-nav-navbar">
-            		<li><a href="#">Ground Monitoring System</a></li>
-            		<li><a href="#">Grounding Cables</a></li>
-            		<li><a href="#">Grounding Clamps</a></li>
-            		<li><a href="#">Accessories</a></li>
-	            </ul>
-			</div>
-        </li>
-        <li><a href="">REPLACEMENT</a></li>
-        <li><a href="">ORDERING GUIDE</a></li>
-        <li><a href="">APPLICATIONS</a></li>
-        <li><a href="">TECHNICAL GUIDE</a></li>
-    </ul>
-    <a href="#offNav" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-</nav>
-
-<div id="offNav" class="uk-offcanvas">
-	<div class="uk-offcanvas-bar">
-		<ul class="uk-navbar-nav">
-		 	<img src="assets/img/logoBrand.png" alt="STS logo"/>
+	<!--Main Nav Bar-->
+	<nav class="uk-navbar uk-navbar-center">
+		 <ul class="uk-navbar-nav uk-visible-large">
+		 	<a href="" class="uk-navbar-brand">
+		 	<img src="assets/img/logoBrand.png" alt="STS logo"/></a>
 	        <li><a href="">HOME</a></li>
-	        <li class="uk-parent" data-uk-dropdown="pos:'bottom-center'"><a href="">PRODUCTS</a>
+	        <li class="uk-parent" data-uk-dropdown><a href="">PRODUCTS</a>
 				<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
 				    <ul class="uk-nav uk-nav-navbar">
 	            		<li><a href="#">Ground Monitoring System</a></li>
@@ -53,7 +31,35 @@
 	        <li><a href="">APPLICATIONS</a></li>
 	        <li><a href="">TECHNICAL GUIDE</a></li>
 	    </ul>
+	    <a href="#offNav" class="uk-navbar-toggle uk-hidden-large" data-uk-offcanvas></a>
+	</nav>
+	<!--END Main Nav Bar-->
+
+	<!--Off Nav Bar-->
+	<div id="offNav" class="uk-offcanvas">
+		<div class="uk-offcanvas-bar">
+			<ul class="uk-navbar-nav">
+			 	<img src="assets/img/logoBrand.png" alt="STS logo"/>
+		        <li><a href="">HOME</a></li>
+		        <li class="uk-parent" data-uk-dropdown="pos:'bottom-center'"><a href="#">PRODUCTS</a>
+					<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
+					    <ul class="uk-nav uk-nav-navbar">
+		            		<li><a href="#">Ground Monitoring System</a></li>
+		            		<li><a href="#">Grounding Cables</a></li>
+		            		<li><a href="#">Grounding Clamps</a></li>
+		            		<li><a href="#">Accessories</a></li>
+			            </ul>
+					</div>
+		        </li>
+		        <li><a href="">REPLACEMENT</a></li>
+		        <li><a href="">ORDERING GUIDE</a></li>
+		        <li><a href="">APPLICATIONS</a></li>
+		        <li><a href="">TECHNICAL GUIDE</a></li>
+		    </ul>
+		</div>
 	</div>
-</div>
+	<!--END Off Nav Bar-->
+
+
 </body>
 </html>
