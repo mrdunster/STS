@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html class="uk-height-viewport uk-width-1-1">
 <head>
-	<title>STS</title>
+	<title>Special Technical Servies - Home</title>
 	<link rel="stylesheet" href="assets/libraries/uikit/css/uikit.min.css" />
 	<link rel="stylesheet" href="assets/css/user.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 	<script src="assets/libraries/uikit/js/uikit.min.js"></script>
 	<script src="assets/js/user.js"></script>
+	<meta http-equiv="refresh" content="1"-->
 </head>
-<body class="uk-height-1-1">
+<body class="uk-height-1-2">
 
 	<!--Main Nav Bar-->
-	<nav class="uk-navbar uk-navbar-center">
-		 <ul class="uk-navbar-nav uk-visible-large">
-		 	<a href="" class="uk-navbar-brand">
-		 	<img src="assets/img/logoBrand.png" alt="STS logo"/></a>
-	        <li><a href="">HOME</a></li>
-	        <li class="uk-parent" data-uk-dropdown><a href="">PRODUCTS</a>
-				<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
+	<nav class="uk-navbar uk-navbar-attached">
+        <div class="uk-container uk-container-center">
+
+            <a class="uk-navbar-brand uk-hidden-small" href="index.html"><img class="uk-margin uk-margin-remove uk-visible-large" src="assets/img/logoBrand.png" width="90" height="30"></a>
+
+            <ul class="uk-navbar-nav uk-visible-large">
+                <li><a href="#">HOME</a></li>
+                <li class="uk-parent" data-uk-dropdown><a href="#">PRODUCTS<i class="uk-icon-caret-down"></i></a>
+                	<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
 				    <ul class="uk-nav uk-nav-navbar">
 	            		<li><a href="#">Ground Monitoring System</a></li>
 	            		<li><a href="#">Grounding Cables</a></li>
 	            		<li><a href="#">Grounding Clamps</a></li>
 	            		<li><a href="#">Accessories</a></li>
 		            </ul>
-				</div>
-	        </li>
-	        <li><a href="">REPLACEMENT</a></li>
-	        <li><a href="">ORDERING GUIDE</a></li>
-	        <li><a href="">APPLICATIONS</a></li>
-	        <li><a href="">TECHNICAL GUIDE</a></li>
-	    </ul>
-	    <a href="#offNav" class="uk-navbar-toggle uk-hidden-large" data-uk-offcanvas></a>
-	</nav>
-	<!--END Main Nav Bar-->
+					</div>
+                </li>
+                <li><a href="#">REPLACEMENT</a></li>
+                <li><a href="#">ORDERING GUIDE</a></li>
+                <li><a href="#">APPLICATIONS</a></li>
+                <li><a href="#">TECHNICAL GUIDE</a></li>
+            </ul>
+
+            <a href="#offNav" class="uk-navbar-toggle uk-hidden-large" data-uk-offcanvas></a>
+
+            <div class="uk-navbar-brand uk-navbar-center uk-hidden-large"><img src="assets/img/logoBrand.png" width="90" height="30"></div>
+        </div>
+    </nav>
 
 	<!--Off Nav Bar-->
 	<div id="offNav" class="uk-offcanvas">
 		<div class="uk-offcanvas-bar">
 			<ul class="uk-navbar-nav">
-			 	<img src="assets/img/logoBrand.png" alt="STS logo"/>
 		        <li><a href="">HOME</a></li>
-		        <li class="uk-parent" data-uk-dropdown="pos:'bottom-center'"><a href="#">PRODUCTS</a>
+		        <li class="uk-parent" data-uk-dropdown="{pos:'bottom-center'}"><a href="#">PRODUCTS</a>
 					<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
 					    <ul class="uk-nav uk-nav-navbar">
 		            		<li><a href="#">Ground Monitoring System</a></li>
@@ -60,6 +65,54 @@
 	</div>
 	<!--END Off Nav Bar-->
 
+	<!--Banner Picture-->
+	<div class="uk-grid">
+		<div class="uk-width-1-1">
+			<div id="background-area">
+				<img class="display" src="assets/img/banner.jpg" alt=banner>
+			<div>
+		</div>
+	</div>
+	<!--END Banner Picture-->
+
+	<!--Mini Content-->
+	<ul class="uk-grid uk-grid-width-1-1 uk-grid-width-medium-1-2 uk-grid-width-large-1-4 uk-container-center uk-margin mini_content_info" data-uk-margin>
+			<li>
+				<h3><img src="assets/img/energy.png">Static Ground Control</h3>
+		    	<p>Insert content here</p>
+		    	<a href="#">Read More <i class="uk-icon-caret-right"></i></a>
+			</li>
+			<li>
+				<h3><img src="assets/img/wrench.png">Replacement Parts</h3>
+		    	<p>Insert content here</p>
+		    	<a href="#">Read More <i class="uk-icon-caret-right"></i></a>
+			</li>
+			<li>
+				<h3><img src="assets/img/truck.png">Cuurent Applications</h3>
+		    	<p>Insert content here</p>
+		    	<a href="#">Read More <i class="uk-icon-caret-right"></i></a>
+			</li>
+			<li>
+				<h3><img src="assets/img/purchase.png">Purchasing Product</h3>
+		    	<p>Insert content here</p>
+		    	<a href="#">Read More <i class="uk-icon-caret-right"></i></a>
+			</li>
+	</ul>
+	<!--END Mini Content-->
+
+	<div class="uk-grid uk-container-center footer_content_info">
+	    <div class="uk-width-1-2">
+	    	<h3>About Us</h3>
+                <p>Special Technical Services Inc. has been providing static ground monitoring solutions since 1976.  STS was founded by Ron Dunster and his vision, business principles and commitment to excellence has proudly now extended into a third generation.
+                <br></br>
+                We are a family owned business and our company goal has always been to provide a quality product delivered at a competitive price that ensures the most value to our customers. Serving our customers' needs with a premium experience in response, delivery and quality is our objective every single day. </p>
+	    </div>
+	    <div class="uk-width-1-2">
+	    	<div class="uk-width-1-3">
+	    		
+	    	</div>
+	    </div>
+	</div>
 
 </body>
 </html>
