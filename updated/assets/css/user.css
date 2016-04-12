@@ -29,6 +29,10 @@ body {
 #offNav .uk-dropdown li a {
 	color:white;
 }
+
+.assisted_center {
+	margin-left: 120px;
+}
 /*------ END Nav Bar ------*/
 
 /*------ Main Picture ------*/
@@ -70,12 +74,42 @@ IMG.display {
 /*------ END Mini Content ------*/
 
 /*------ Footer Styling ------*/
-.footer_content_info h5 {
+.footer_content  ul {
+	list-style: none;
+}
+
+.footer_content  li {
+	margin-top: 7px;
+}
+
+.footer_content a {
+	color: #0F2D53;
+}
+
+.footer_content a:hover {
+	color: #0F2D53;
+}
+
+.footer_content h3 {
     font-weight: bold;
 }
 
-.footer_content_info p {
+.footer_content_else h3 {
+    font-weight: bold;
+    margin-left: 29px;
+}
+
+.footer_content p {
     color: #363636;
     line-height: auto;
     margin-bottom: 22px;
     font-size: 12px;
+}
+
+.footer_bold_text {
+	font-weight: bold;
+}
+
+.footer_contact_us h3 {
+
+}
